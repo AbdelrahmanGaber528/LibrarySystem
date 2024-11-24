@@ -5,7 +5,7 @@
  experience for both library staff and patrons, ensuring that all processes related to library 
  operations are handled seamlessly.
  ## The system includes the following modules:
-## Administrative Module:
+## ##Administrative Module:
   ### a) Admins can create, delete, update, and search for librarian and patron accounts, ensuring 
 accurate and secure user records.
  ### b) Admins can manage their own credentials (username and password) for secure access.
@@ -14,11 +14,11 @@ no longer part of the collection.
  ### d) Admins can categorize books by genre, author, publication year, and other relevant 
 criteria for easier searching.
  ### e) Admins can track the status of each book (available, checked out, reserved).
- ## Librarian Module:
+ ## ##Librarian Module:
  ### a) Librarians can check out and return books for patrons.
  ### b) Librarians can handle reservations for books that are currently checked out, notifying 
 patrons when the book is available for pickup.
-## Patron Module:
+## ##Patron Module:
 ### a) Patrons can create and manage their library accounts, updating personal information as 
 needed.
 ### b) Patrons can search for books using various filters (title, author, genre, etc.) and view 
@@ -27,6 +27,6 @@ details about each book (summary, availability).
 dates.
 ### d) Patrons can renew checked-out books or request reservations for books that are currently 
 checked out.
-## User Module:
+## ##User Module:
 ### a) All users (admins, librarians, patrons) can log in and out.
 ### b) Users can update their contact information and preferences.
