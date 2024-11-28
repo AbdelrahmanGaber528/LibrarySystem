@@ -1,4 +1,4 @@
-package com.usermodel;
+package com.models.usermodel;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -74,7 +74,8 @@ public class User {
     public String getPreferences(){
         return preferences != null ? preferences : "No preferences set.";
     }
-//    public void userInfo() {
-//        logger.log(Level.INFO, "User info: {0}, {1}", new Object[]{userName, ID});
-//    }
+
+    public void userInfo() {
+        logger.log(Level.INFO, "User info: {0}, {1}", new Object[]{userName, ID});
+    }
 }
